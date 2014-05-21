@@ -37,6 +37,7 @@ body {
   box-sizing: border-box;
   display: inline-block;
   width: 31%;
+  min-width: 200px;
   border: 5px solid lightgrey;
   border-radius: 15px;
   vertical-align: top;
