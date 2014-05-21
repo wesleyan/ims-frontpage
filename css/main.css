@@ -37,9 +37,13 @@ body {
   box-sizing: border-box;
   display: inline-block;
   width: 31%;
-  background: lightgrey;
+  border: 5px solid lightgrey;
   border-radius: 15px;
   vertical-align: top;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .box > div { margin: 20px 0px 20px 10px; }
 a { text-decoration: none; }
@@ -49,14 +53,20 @@ a:hover { color: #B800FF;  }  /* mouse over link */
 a:active { color: #B800FF; }  /* selected link */
 .box i {
   vertical-align: middle;
+}
+.box-hd {
+  height: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+.icon-header {
+  height: 80px;
+  text-align: center;
+}
+.box .icon-home3 {
   margin-right: 15px;
 }
-#footer {
-  position: fixed;
-  height: 100px;
-  background-color: lightgrey;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
+.box:hover {
+  border-color: black;
+  font-size: 20px;
 }
