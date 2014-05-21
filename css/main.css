@@ -1,0 +1,62 @@
+/* CSS main */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:before,
+.container:after {
+  display: table; content: " "; }
+.container:after {
+  clear: both;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+.box {
+  position: relative;
+  min-height: 1px;
+  margin: 1%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  /* text-align: center; */
+  box-sizing: border-box;
+  display: inline-block;
+  width: 31%;
+  background: lightgrey;
+  border-radius: 15px;
+  vertical-align: top;
+}
+.box > div { margin: 20px 0px 20px 10px; }
+a { text-decoration: none; }
+a { color: #B800FF; }      /* unvisited link */
+a:visited { color: #B800FF;  }  /* visited link */
+a:hover { color: #B800FF;  }  /* mouse over link */
+a:active { color: #B800FF; }  /* selected link */
+.box i {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+#footer {
+  position: fixed;
+  height: 100px;
+  background-color: lightgrey;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
